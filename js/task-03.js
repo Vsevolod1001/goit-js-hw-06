@@ -18,7 +18,7 @@ const createImg = images.map((image) =>
   `<li><img src="${image.url}"
   alt="${image.alt}"></li>`
 
-)
+).join("")
 galleryEl.insertAdjacentHTML('afterbegin', createImg)
 
 
